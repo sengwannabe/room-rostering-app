@@ -1,0 +1,19 @@
+[
+  {
+    "_id": 1,
+    "timetable": {
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": [
+        {
+          "user_id": 1,
+          "user_name": "John Johnson",
+          "room_id": 1,
+          "room_name": "Clancy"
+        }
+      ],
+      "Thursday": [],
+      "Friday": []
+    }
+  }
+]

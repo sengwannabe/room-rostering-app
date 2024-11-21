@@ -1,0 +1,52 @@
+[
+  {
+      "_id": 1,
+      "name": "John Johnson",
+      "isManager": true,
+      "unavailability": {
+        "Monday": true,
+        "Tuesday": true,
+        "Wednesday": false,
+        "Thursday": true,
+        "Friday": true
+      },
+      "roomPreference": {
+        "capacity": 1,
+        "chemicalUse": true,
+        "equipment": [
+          {
+            "_id": 1,
+            "quantity": 1
+          }
+        ]
+      }
+  },
+  {
+    "_id": 11,
+    "name": "McLovin",
+    "isManager": true,
+    "unavailability": {
+      "Monday": true,
+      "Tuesday": false,
+      "Wednesday": true,
+      "Thursday": false,
+      "Friday": true
+    },
+    "roomPreference": {
+      "capacity": 10,
+      "chemicalUse": true,
+      "equipment": [
+        {
+          "_id": 1,
+          "name": "Chair",
+          "quantity": 5
+        },
+        {
+          "_id": 2,
+          "name": "Workbench",
+          "quantity": 5
+        }
+      ]
+    }
+  }
+]

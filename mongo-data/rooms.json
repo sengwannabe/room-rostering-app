@@ -1,0 +1,418 @@
+[
+  {
+    "_id": 1,
+    "name": "Clancy",
+    "attributes": {
+      "capacity": 10,
+      "chemicalUse": true,
+      "equipment": [
+        {
+          "_id": 1,
+          "quantity": 10
+        },
+        {
+          "_id": 2,
+          "quantity": 10
+        },
+        {
+          "_id": 10,
+          "quantity": 10
+        },
+        {
+          "_id": 11,
+          "quantity": 10
+        },
+        {
+          "_id": 3,
+          "quantity": 10
+        },
+        {
+          "_id": 5,
+          "quantity": 10
+        }
+      ]
+    }
+  },
+  {
+    "_id": 2,
+    "name": "Ainsworth 201",
+    "attributes": {
+      "capacity": 20,
+      "chemicalUse": false,
+      "equipment": [
+        {
+          "_id": 1,
+          "quantity": 20
+        },
+        {
+          "_id": 2,
+          "quantity": 20
+        },
+        {
+          "_id": 5,
+          "quantity": 10
+        },
+        {
+          "_id": 4,
+          "quantity": 7
+        },
+        {
+          "_id": 13,
+          "quantity": 15
+        }
+      ]
+    }
+  },
+  {
+    "_id": 3,
+    "name": "Ainsworth 202",
+    "attributes": {
+      "capacity": 25,
+      "chemicalUse": false,
+      "equipment": [
+        {
+          "_id": 1,
+          "quantity": 20
+        },
+        {
+          "_id": 2,
+          "quantity": 20
+        },
+        {
+          "_id": 5,
+          "quantity": 4
+        },
+        {
+          "_id": 4,
+          "quantity": 5
+        },
+        {
+          "_id": 13,
+          "quantity": 20
+        }
+      ]
+    }
+  },
+  {
+    "_id": 4,
+      "name": "Law 104",
+      "attributes": {
+        "capacity": 15,
+        "chemicalUse": true,
+        "equipment": [
+          {
+            "_id": 1,
+            "quantity": 15
+          },
+          {
+            "_id": 2,
+            "quantity": 15
+          }
+        ]
+      }
+  },
+  {
+    "_id": 5,
+      "name": "Law 105",
+      "attributes": {
+        "capacity": 15,
+        "chemicalUse": false,
+        "equipment": [
+          {
+            "_id": 1,
+            "quantity": 13
+          },
+          {
+            "_id": 2,
+            "quantity": 13
+          }
+        ]
+      }
+  },
+  {
+    "_id": 6,
+    "name": "Tyree G05",
+    "attributes": {
+      "capacity": 22,
+      "chemicalUse": false,
+      "equipment": [
+        {
+          "_id": 1,
+          "quantity": 1
+        },
+        {
+          "_id": 2,
+          "quantity": 14
+        },
+        {
+          "_id": 14,
+          "quantity": 7
+        },
+        {
+          "_id": 7,
+          "quantity": 4
+        }
+      ]
+    }
+  },
+  {
+    "_id": 7,
+    "name": "Tyree G03",
+    "attributes": {
+      "capacity": 21,
+      "chemicalUse": true,
+      "equipment": [
+        {
+          "_id": 1,
+          "quantity": 10
+        },
+        {
+          "_id": 2,
+          "quantity": 20
+        },
+        {
+          "_id": 14,
+          "quantity": 7
+        },
+        {
+          "_id": 7,
+          "quantity": 8
+        }
+      ]
+    }
+  },
+  {
+    "_id": 8,
+    "name": "Scientia 304",
+    "attributes": {
+      "capacity": 30,
+      "chemicalUse": true,
+      "equipment": [
+        {
+          "_id": 1,
+          "quantity": 10
+        },
+        {
+          "_id": 6,
+          "quantity": 11
+        },
+        {
+          "_id": 5,
+          "quantity": 10
+        },
+        {
+          "_id": 10,
+          "quantity": 11
+        }
+      ]
+    }
+  },
+  {
+    "_id": 9,
+    "name": "Scientia 302",
+    "attributes": {
+      "capacity": 28,
+      "chemicalUse": true,
+      "equipment": [
+        {
+          "_id": 1,
+          "quantity": 5
+        },
+        {
+          "_id": 6,
+          "quantity": 15
+        },
+        {
+          "_id": 5,
+          "quantity": 18
+        },
+        {
+          "_id": 10,
+          "quantity": 9
+        }
+      ]
+    }
+  },
+  {
+    "_id": 10,
+    "name": "Quad G06",
+    "attributes": {
+      "capacity": 30,
+      "chemicalUse": true,
+      "equipment": [
+        {
+          "_id": 1,
+          "quantity": 20
+        },
+        {
+          "_id": 2,
+          "quantity": 20
+        },
+        {
+          "_id": 3,
+          "quantity": 20
+        },
+        {
+          "_id": 4,
+          "quantity": 20
+        },
+        {
+          "_id": 5,
+          "quantity": 20
+        },
+        {
+          "_id": 6,
+          "quantity": 20
+        },
+        {
+          "_id": 7,
+          "quantity": 20
+        },
+        {
+          "_id": 8,
+          "quantity": 20
+        },
+        {
+          "_id": 9,
+          "quantity": 20
+        },
+        {
+          "_id": 10,
+          "quantity": 20
+        },
+        {
+          "_id": 11,
+          "quantity": 20
+        },
+        {
+          "_id": 12,
+          "quantity": 20
+        },
+        {
+          "_id": 13,
+          "quantity": 20
+        },
+        {
+          "_id": 14,
+          "quantity": 20
+        },
+        {
+          "_id": 15,
+          "quantity": 20
+        },
+        {
+          "_id": 16,
+          "quantity": 20
+        },
+        {
+          "_id": 17,
+          "quantity": 20
+        },
+        {
+          "_id": 18,
+          "quantity": 20
+        }
+      ]
+    }
+  },
+  {
+    "_id": 11,
+    "name": "Quad G07",
+    "attributes": {
+      "capacity": 25,
+      "chemicalUse": true,
+      "equipment": [
+        {
+          "_id": 1,
+          "quantity": 1
+        },
+        {
+          "_id": 2,
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  {
+    "_id": 12,
+    "name": "Quad G10",
+    "attributes": {
+      "capacity": 30,
+      "chemicalUse": false,
+      "equipment": [
+        {
+          "_id": 1,
+          "quantity": 18
+        },
+        {
+          "_id": 2,
+          "quantity": 18
+        },
+        {
+          "_id": 3,
+          "quantity": 18
+        },
+        {
+          "_id": 4,
+          "quantity": 18
+        },
+        {
+          "_id": 5,
+          "quantity": 18
+        },
+        {
+          "_id": 6,
+          "quantity": 18
+        },
+        {
+          "_id": 7,
+          "quantity": 18
+        },
+        {
+          "_id": 8,
+          "quantity": 18
+        },
+        {
+          "_id": 9,
+          "quantity": 18
+        },
+        {
+          "_id": 10,
+          "quantity": 18
+        },
+        {
+          "_id": 11,
+          "quantity": 18
+        },
+        {
+          "_id": 12,
+          "quantity": 18
+        },
+        {
+          "_id": 13,
+          "quantity": 18
+        },
+        {
+          "_id": 14,
+          "quantity": 18
+        },
+        {
+          "_id": 15,
+          "quantity": 18
+        },
+        {
+          "_id": 16,
+          "quantity": 18
+        },
+        {
+          "_id": 17,
+          "quantity": 18
+        },
+        {
+          "_id": 18,
+          "quantity": 18
+        }
+      ]
+    }
+  }
+]

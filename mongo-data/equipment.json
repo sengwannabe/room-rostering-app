@@ -1,0 +1,92 @@
+[
+  {
+    "_id": 1,
+    "name": "Chair",
+    "dependentId": null
+  },
+  {
+    "_id": 2,
+    "name": "Workbench",
+    "dependentId": null
+  },
+  {
+    "_id": 3,
+    "name": "Pipette",
+    "dependentId": 7
+  },
+  {
+    "_id": 4,
+    "name": "Bunsen Burner",
+    "dependentId": 5
+  },
+  {
+    "_id": 5,
+    "name": "Bench Mat",
+    "dependentId": 2
+  },
+  {
+    "_id": 6,
+    "name": "Boiling Flask",
+    "dependentId": 8
+  },
+  {
+    "_id": 7,
+    "name": "Beaker",
+    "dependentId": 2
+  },
+  {
+    "_id": 8,
+    "name": "Tripod",
+    "dependentId": 5
+  },
+  {
+    "_id": 9,
+    "name": "Retinoscope",
+    "dependentId": 2
+  },
+  {
+    "_id": 10,
+    "name": "Microscope",
+    "dependentId": 2
+  },
+  {
+    "_id": 11,
+    "name": "Centrifuge",
+    "dependentId": 2
+  },
+  {
+    "_id": 12,
+    "name": "PCR Machine",
+    "dependentId": 2
+  },
+  {
+    "_id": 13,
+    "name": "Spectrophotometer",
+    "dependentId": 2
+  },
+  {
+    "_id": 14,
+    "name": "pH Meter",
+    "dependentId": 7
+  },
+  {
+    "_id": 15,
+    "name": "Analytical Balance",
+    "dependentId": 2
+  },
+  {
+    "_id": 16,
+    "name": "Incubator",
+    "dependentId": null
+  },
+  {
+    "_id": 17,
+    "name": "Fume Hood",
+    "dependentId": null
+  },
+  {
+    "_id": 18,
+    "name": "Water Bath",
+    "dependentId": 2
+  }
+]

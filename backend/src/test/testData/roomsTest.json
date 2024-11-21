@@ -1,0 +1,16 @@
+[
+    {
+        "_id": 1,
+        "name": "Clancy",
+        "attributes": {
+            "capacity": 10,
+            "chemicalUse": true,
+            "equipment": [
+            {
+                "_id": 1,
+                "quantity": 2
+            }
+            ]
+        }
+    }
+]

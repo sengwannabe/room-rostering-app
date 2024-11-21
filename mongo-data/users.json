@@ -1,0 +1,276 @@
+[
+    {
+      "_id": 1,
+      "name": "John Johnson",
+      "isManager": true,
+      "unavailability": {
+        "Monday": true,
+        "Tuesday": true,
+        "Wednesday": false,
+        "Thursday": true,
+        "Friday": true
+      },
+      "roomPreference": {
+        "capacity": 10,
+        "chemicalUse": true,
+        "equipment": [
+          {
+            "_id": 1,
+            "quantity": 10
+          },
+          {
+            "_id": 2,
+            "quantity": 10
+          },
+          {
+            "_id": 10,
+            "quantity": 10
+          },
+          {
+            "_id": 11,
+            "quantity": 10
+          },
+          {
+            "_id": 3,
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "_id": 2,
+      "name": "Michael Scott",
+      "isManager": true,
+      "unavailability": {
+        "Monday": true,
+        "Tuesday": true,
+        "Wednesday": false,
+        "Thursday": true,
+        "Friday": true
+      },
+      "roomPreference": {
+        "capacity": 20,
+        "chemicalUse": false,
+        "equipment": [
+          {
+            "_id": 1,
+            "quantity": 20
+          },
+          {
+            "_id": 2,
+            "quantity": 20
+          },
+          {
+            "_id": 5,
+            "quantity": 10
+          },
+          {
+            "_id": 4,
+            "quantity": 5
+          },
+          {
+            "_id": 13,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "_id": 3,
+        "name": "Jim Halpert",
+        "isManager": false,
+        "unavailability": {
+          "Monday": false,
+          "Tuesday": false,
+          "Wednesday": false,
+          "Thursday": true,
+          "Friday": true
+        },
+        "roomPreference": {
+          "capacity": 15,
+          "chemicalUse": false,
+          "equipment": [
+            {
+              "_id": 1,
+              "quantity": 11
+            },
+            {
+              "_id": 2,
+              "quantity": 9
+            }
+          ]
+        }
+    },
+    {
+      "_id": 4,
+      "name": "Pam Beasley",
+      "isManager": false,
+      "unavailability": {
+        "Monday": false,
+        "Tuesday": true,
+        "Wednesday": true,
+        "Thursday": false,
+        "Friday": false
+      },
+      "roomPreference": {
+        "capacity": 20,
+        "chemicalUse": true,
+        "equipment": [
+          {
+            "_id": 1,
+            "quantity": 4
+          },
+          {
+            "_id": 2,
+            "quantity": 17
+          },
+          {
+            "_id": 14,
+            "quantity": 7
+          },
+          {
+            "_id": 7,
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    {
+      "_id": 5,
+      "name": "Dwight Schrute",
+      "isManager": true,
+      "unavailability": {
+        "Monday": true,
+        "Tuesday": true,
+        "Wednesday": true,
+        "Thursday": true,
+        "Friday": true
+      },
+      "roomPreference": {
+        "capacity": 26,
+        "chemicalUse": true,
+        "equipment": [
+          {
+            "_id": 1,
+            "quantity": 5
+          },
+          {
+            "_id": 6,
+            "quantity": 15
+          },
+          {
+            "_id": 5,
+            "quantity": 15
+          }
+        ]
+      }
+    },
+    {
+      "_id": 6,
+      "name": "Stanley Hudson",
+      "isManager": false,
+      "unavailability": {
+        "Monday": true,
+        "Tuesday": false,
+        "Wednesday": true,
+        "Thursday": false,
+        "Friday": true
+      },
+      "roomPreference": {
+        "capacity": 5,
+        "chemicalUse": true,
+        "equipment": [
+          {
+            "_id": 1,
+            "quantity": 15
+          },
+          {
+            "_id": 2,
+            "quantity": 15
+          },
+          {
+            "_id": 3,
+            "quantity": 15
+          },
+          {
+            "_id": 4,
+            "quantity": 15
+          },
+          {
+            "_id": 5,
+            "quantity": 15
+          },
+          {
+            "_id": 6,
+            "quantity": 15
+          },
+          {
+            "_id": 7,
+            "quantity": 15
+          },
+          {
+            "_id": 8,
+            "quantity": 15
+          },
+          {
+            "_id": 9,
+            "quantity": 15
+          },
+          {
+            "_id": 10,
+            "quantity": 15
+          },
+          {
+            "_id": 11,
+            "quantity": 15
+          },
+          {
+            "_id": 12,
+            "quantity": 15
+          },
+          {
+            "_id": 13,
+            "quantity": 15
+          },
+          {
+            "_id": 14,
+            "quantity": 15
+          },
+          {
+            "_id": 15,
+            "quantity": 15
+          },
+          {
+            "_id": 16,
+            "quantity": 15
+          },
+          {
+            "_id": 17,
+            "quantity": 15
+          },
+          {
+            "_id": 18,
+            "quantity": 15
+          }
+        ]
+      }
+    },
+    {
+      "_id": 7,
+      "name": "Creed Bratton",
+      "isManager": false,
+      "unavailability": {
+        "Monday": false,
+        "Tuesday": false,
+        "Wednesday": false,
+        "Thursday": false,
+        "Friday": true
+      },
+      "roomPreference": {
+        "capacity": 10,
+        "chemicalUse": true,
+        "equipment": [
+        ]
+      }
+    }
+  ]

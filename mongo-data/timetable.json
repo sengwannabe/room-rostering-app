@@ -1,0 +1,12 @@
+[
+  {
+    "_id": 1,
+    "timetable": {
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": [],
+      "Friday": []
+    }
+  }
+]

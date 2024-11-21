@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "5001:5000"
+    links:
+      - mongodb
+    depends_on:
+      - mongodb
+  
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+  mongodb:
+    image: mongo
+    command: mongod
+    ports:
+      - 27017:27017
+    
+  mongo-data:
+    build: mongo-data/.
+    links:
+      - mongodb
+    depends_on:
+      - mongodb
+
+networks:
+  app-network:
+    driver: bridge

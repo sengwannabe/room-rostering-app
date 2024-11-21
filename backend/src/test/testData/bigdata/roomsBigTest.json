@@ -1,0 +1,74 @@
+[
+    {
+        "_id": 1,
+        "name": "EverythingButPipettes",
+        "attributes": {
+            "capacity": 50,
+            "chemicalUse": true,
+            "equipment": [
+                {
+                    "_id": 1,
+                    "quantity": 20
+                },
+                {
+                    "_id": 2,
+                    "quantity": 20
+                },
+                {
+                    "_id": 3,
+                    "quantity": 20
+                },
+                {
+                    "_id": 4,
+                    "quantity": 20
+                }
+            ]
+        }
+    },
+    {
+        "_id": 2,
+        "name": "WorkbenchOnlyRoom",
+        "attributes": {
+            "capacity": 25,
+            "chemicalUse": false,
+            "equipment": [
+                {
+                    "_id": 2,
+                    "quantity": 20
+                }
+            ]
+        }
+    },
+    {
+        "_id": 3,
+        "name": "NoEquipmentRoom",
+        "attributes": {
+            "capacity": 25,
+            "chemicalUse": false,
+            "equipment": [
+            ]
+        }
+    },
+    {
+        "_id": 4,
+        "name": "PipetteRoomOnly",
+        "attributes": {
+            "capacity": 25,
+            "chemicalUse": false,
+            "equipment": [
+                {
+                    "_id": 2,
+                    "quantity": 15
+                  },
+                  {
+                    "_id": 4,
+                    "quantity": 15
+                  },
+                  {
+                    "_id": 5,
+                    "quantity": 30
+                  }
+            ]
+        }
+    }
+]

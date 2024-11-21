@@ -1,0 +1,24 @@
+[
+  {
+      "_id": 1,
+      "name": "John Johnson",
+      "isManager": true,
+      "unavailability": {
+        "Monday": true,
+        "Tuesday": true,
+        "Wednesday": true,
+        "Thursday": true,
+        "Friday": true
+      },
+      "roomPreference": {
+        "capacity": 1,
+        "chemicalUse": true,
+        "equipment": [
+          {
+            "_id": 1,
+            "quantity": 1
+          }
+        ]
+      }
+  }
+]

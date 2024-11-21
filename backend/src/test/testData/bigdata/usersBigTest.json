@@ -1,0 +1,98 @@
+[
+  {
+      "_id": 1,
+      "name": "I Work Everday",
+      "isManager": true,
+      "unavailability": {
+        "Monday": false,
+        "Tuesday": false,
+        "Wednesday": false,
+        "Thursday": false,
+        "Friday": false
+      },
+      "roomPreference": {
+        "capacity": 50,
+        "chemicalUse": true,
+        "equipment": [
+          {
+            "_id": 2,
+            "quantity": 20
+          }
+        ]
+      }
+  },
+  {
+    "_id": 2,
+    "name": "I Don't Work",
+    "isManager": true,
+    "unavailability": {
+      "Monday": true,
+      "Tuesday": true,
+      "Wednesday": true,
+      "Thursday": true,
+      "Friday": true
+    },
+    "roomPreference": {
+      "capacity": 20,
+      "chemicalUse": true,
+      "equipment": [
+        {
+          "_id": 1,
+          "quantity": 20
+        }
+      ]
+    }
+  },
+  {
+    "_id": 3,
+    "name": "I Require Pipettes and Fridays",
+    "isManager": true,
+    "unavailability": {
+      "Monday": true,
+      "Tuesday": true,
+      "Wednesday": true,
+      "Thursday": true,
+      "Friday": false
+    },
+    "roomPreference": {
+      "capacity": 20,
+      "chemicalUse": false,
+      "equipment": [
+        {
+          "_id": 2,
+          "quantity": 10
+        },
+        {
+          "_id": 4,
+          "quantity": 10
+        },
+        {
+          "_id": 5,
+          "quantity": 20
+        }
+      ]
+    }
+  },
+  {
+    "_id": 4,
+    "name": "I need a workbench and Monday",
+    "isManager": false,
+    "unavailability": {
+      "Monday": false,
+      "Tuesday": true,
+      "Wednesday": true,
+      "Thursday": true,
+      "Friday": true
+    },
+    "roomPreference": {
+      "capacity": 20,
+      "chemicalUse": false,
+      "equipment": [
+        {
+          "_id": 2,
+          "quantity": 1
+        }
+      ]
+    }
+  }
+]

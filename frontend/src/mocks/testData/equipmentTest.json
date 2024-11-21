@@ -1,0 +1,22 @@
+[
+  {
+    "_id": 1,
+    "name": "Chair",
+    "dependentId": null
+  },
+  {
+    "_id": 2,
+    "name": "Workbench",
+    "dependentId": null
+  },
+  {
+    "_id": 7,
+    "name": "Beaker",
+    "dependentId": 2
+  },
+  {
+    "_id": 3,
+    "name": "Pipette",
+    "dependentId": 7
+  }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "_id": 1,
+        "name": "Chair",
+        "dependentId": null
+    },
+    {
+        "_id": 2,
+        "name": "Workbench",
+        "dependentId": null
+    },
+    {
+        "_id": 3,
+        "name": "Bunsen Burner",
+        "dependentId": 2
+    },
+    {
+        "_id": 4,
+        "name": "Beaker",
+        "dependentId": 2
+    },
+    {
+        "_id": 5,
+        "name": "Pipette",
+        "dependentId":4
+    }
+]

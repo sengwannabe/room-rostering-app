@@ -1,0 +1,13 @@
+[
+  {
+    "capacity": 1,
+    "chemicalUse": true,
+    "equipment": [
+      {
+        "_id": 1,
+        "name": "Chair",
+        "quantity": 1
+      }
+    ]
+  }
+]
